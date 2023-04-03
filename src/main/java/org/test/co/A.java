@@ -38,6 +38,20 @@ public class A {
 		System.out.println("test1");
 
 	}
+	
+	@Test(enabled = false)
+	private void test15() {
+		System.out.println("test1");
+
+	}
+
+	
+	@Test
+	private void test13() {
+		System.out.println("test1");
+
+	}
+
 
 	@Test(enabled = false)
 	private void test() {
