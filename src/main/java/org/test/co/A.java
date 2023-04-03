@@ -19,12 +19,22 @@ import io.restassured.response.Response;
 
 public class A {
 
+<<<<<<< HEAD
+	
+	@Test(enabled = false)
+	private void test188() {
+		System.out.println("testdddd1");
+	
+	
+	}@Test
+=======
 	@Test
 	private void test93() {
 		System.out.println("test1");
 
 	}
 	@Test
+>>>>>>> ba2876bafde15fafaf88d486d324613682bd9712
 	private void rest() {
 		RestAssured.baseURI = "https://reqres.in";
 
@@ -38,23 +48,12 @@ public class A {
 		System.out.println(body);
 	}
 
-	@Test(enabled = false)
-	private void test1() {
-		System.out.println("test1");
+	
+	
+	
 
-	}
 	
 	@Test(enabled = false)
-	private void test15() {
-		System.out.println("test1");
-
-	}
-
-	@Test(enabled = false)
-	private void test16() {
-		System.out.println("test1");
-
-	}@Test(enabled = false)
 	private void test18() {
 		System.out.println("test1");
 
@@ -75,7 +74,12 @@ public class A {
 		Assert.assertTrue(false);
 	}
 
-	@Test(enabled = false)
+@Test
+private void test167() {
+	System.out.println("test1");
+
+}
+@Test(enabled = false)
 	private void test3() throws IOException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
