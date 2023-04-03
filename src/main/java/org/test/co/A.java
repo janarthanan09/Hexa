@@ -20,6 +20,11 @@ import io.restassured.response.Response;
 public class A {
 
 	@Test
+	private void test93() {
+		System.out.println("test1");
+
+	}
+	@Test
 	private void rest() {
 		RestAssured.baseURI = "https://reqres.in";
 
