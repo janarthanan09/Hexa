@@ -45,8 +45,20 @@ public class A {
 
 	}
 
-	
-	@Test
+	@Test(enabled = false)
+	private void test16() {
+		System.out.println("test1");
+
+	}@Test(enabled = false)
+	private void test18() {
+		System.out.println("test1");
+
+	}
+	@Test(enabled = false)
+	private void test19() {
+		System.out.println("test1");
+
+	}@Test
 	private void test13() {
 		System.out.println("test1");
 
