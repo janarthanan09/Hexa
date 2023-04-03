@@ -19,7 +19,13 @@ import io.restassured.response.Response;
 
 public class A {
 
-	@Test
+	
+	@Test(enabled = false)
+	private void test188() {
+		System.out.println("testdddd1");
+	
+	
+	}@Test
 	private void rest() {
 		RestAssured.baseURI = "https://reqres.in";
 
@@ -59,7 +65,7 @@ public class A {
 		Assert.assertTrue(false);
 	}
 
-}@Test
+@Test
 private void test167() {
 	System.out.println("test1");
 
