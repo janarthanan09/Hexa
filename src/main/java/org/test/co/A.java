@@ -19,6 +19,7 @@ import io.restassured.response.Response;
 
 public class A {
 
+<<<<<<< HEAD
 	
 	@Test(enabled = false)
 	private void test188() {
@@ -26,6 +27,14 @@ public class A {
 	
 	
 	}@Test
+=======
+	@Test
+	private void test93() {
+		System.out.println("test1");
+
+	}
+	@Test
+>>>>>>> ba2876bafde15fafaf88d486d324613682bd9712
 	private void rest() {
 		RestAssured.baseURI = "https://reqres.in";
 
