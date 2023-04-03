@@ -33,23 +33,12 @@ public class A {
 		System.out.println(body);
 	}
 
-	@Test(enabled = false)
-	private void test1() {
-		System.out.println("test1");
+	
+	
+	
 
-	}
 	
 	@Test(enabled = false)
-	private void test15() {
-		System.out.println("test1");
-
-	}
-
-	@Test(enabled = false)
-	private void test16() {
-		System.out.println("test1");
-
-	}@Test(enabled = false)
 	private void test18() {
 		System.out.println("test1");
 
@@ -70,7 +59,12 @@ public class A {
 		Assert.assertTrue(false);
 	}
 
-	@Test(enabled = false)
+}@Test
+private void test167() {
+	System.out.println("test1");
+
+}
+@Test(enabled = false)
 	private void test3() throws IOException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
